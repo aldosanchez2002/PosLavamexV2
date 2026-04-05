@@ -1,3 +1,4 @@
+(function() {
 // LoginScreen.jsx — PIN login screen
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -27,3 +28,5 @@ const LoginScreen = () => {
 };
 
 LP.LoginScreen = LoginScreen;
+
+})();

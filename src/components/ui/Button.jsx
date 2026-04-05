@@ -1,3 +1,4 @@
+(function() {
 // Button.jsx — Reusable button component
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -19,3 +20,5 @@ const Button = ({ onClick, children, variant = 'primary', className = '', ...pro
 };
 
 LP.Button = Button;
+
+})();

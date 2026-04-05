@@ -1,3 +1,4 @@
+(function() {
 // constants.js — App-wide constants and Firebase config
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -60,3 +61,5 @@ LP.DEFAULTS = {
         { id: 'LIMP_ZONA',        label: 'Limpieza por Zona',    price: 200, commission: 70    },
     ]
 };
+
+})();

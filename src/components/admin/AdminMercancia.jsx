@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -150,3 +151,5 @@ const AdminMercancia = () => {
 };
 
 LP.AdminMercancia = AdminMercancia;
+
+})();

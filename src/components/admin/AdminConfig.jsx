@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -140,3 +141,5 @@ const AdminConfig = () => {
 };
 
 LP.AdminConfig = AdminConfig;
+
+})();

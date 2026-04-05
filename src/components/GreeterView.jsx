@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -258,3 +259,5 @@ const GreeterView = () => {
 };
 
 LP.GreeterView = GreeterView;
+
+})();

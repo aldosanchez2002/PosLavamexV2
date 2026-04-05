@@ -1,3 +1,4 @@
+(function() {
 // AppContext.jsx — Global state management
 // Firebase is accessed via LP.firebase and LP.db (set by the module bootstrap script)
 window.LP = window.LP || {};
@@ -470,3 +471,5 @@ const AppProvider = ({ children }) => {
 LP.AppContext = AppContext;
 LP.AppProvider = AppProvider;
 LP.useApp = () => useContext(AppContext);
+
+})();

@@ -1,3 +1,4 @@
+(function() {
 // pdfService.js — PDF generation service
 // Requires jsPDF UMD (window.jspdf) and jspdf-autotable UMD loaded before this file
 window.LP = window.LP || {};
@@ -537,3 +538,5 @@ const PdfService = {
 };
 
 LP.PdfService = PdfService;
+
+})();

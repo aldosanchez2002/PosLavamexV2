@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -63,3 +64,5 @@ const LavamexPOS = () => {
 };
 
 LP.LavamexPOS = LavamexPOS;
+
+})();

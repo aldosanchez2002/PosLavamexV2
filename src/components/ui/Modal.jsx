@@ -1,3 +1,4 @@
+(function() {
 // Modal.jsx — Modal dialog component
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -20,3 +21,5 @@ const Modal = ({ title, onClose, children, icon: Icon, footer }) => {
 };
 
 LP.Modal = Modal;
+
+})();

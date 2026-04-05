@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -489,3 +490,5 @@ const CashierView = () => {
 };
 
 LP.CashierView = CashierView;
+
+})();
