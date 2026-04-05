@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -62,3 +63,5 @@ const AdminBusinessExpenses = () => {
 };
 
 LP.AdminBusinessExpenses = AdminBusinessExpenses;
+
+})();

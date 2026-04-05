@@ -1,3 +1,4 @@
+(function() {
 // utils.js — Utility functions
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -275,3 +276,5 @@ LP.calculateTicketTotals = calculateTicketTotals;
 LP.calculatePayroll = calculatePayroll;
 LP.validatePin = validatePin;
 LP.toggleSelection = toggleSelection;
+
+})();

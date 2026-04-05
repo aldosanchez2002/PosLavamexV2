@@ -1,3 +1,4 @@
+(function() {
 // DateRangeSelector.jsx — Date picker and range selector components
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -125,3 +126,5 @@ const DateRangeSelector = ({ start, end, onRangeChange, label }) => {
 LP.CustomDateInput = CustomDateInput;
 LP.CalendarRangeModal = CalendarRangeModal;
 LP.DateRangeSelector = DateRangeSelector;
+
+})();

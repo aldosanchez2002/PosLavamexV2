@@ -1,3 +1,4 @@
+(function() {
 window.LP = window.LP || {};
 const LP = window.LP;
 
@@ -177,3 +178,5 @@ const HistoryView = () => {
 };
 
 LP.HistoryView = HistoryView;
+
+})();

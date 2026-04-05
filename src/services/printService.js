@@ -1,3 +1,4 @@
+(function() {
 // printService.js — Print and share service
 window.LP = window.LP || {};
 const LP = window.LP;
@@ -130,3 +131,5 @@ Firma: __________________
 };
 
 LP.PrintService = PrintService;
+
+})();
